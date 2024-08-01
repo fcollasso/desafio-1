@@ -99,6 +99,7 @@ li {
   color: #1B1B1B;
   font-size: 32px;
   font-weight: bold;
+  margin-left: 12px;
 }
 
 .history {
@@ -135,8 +136,8 @@ li {
 footer {
   color: #333333;
   text-align: center;
-  /* padding-top: 40px;
-  padding-bottom: 24px; */
+  padding-top: 40px;
+  /* padding-bottom: 24px; */
 }
 
 hr {
@@ -146,4 +147,13 @@ hr {
 ul {
   margin: 0;
   padding: 0;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ol > li {
+  list-style-position: inside;
 }
